@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-color: rgba(56, 47, 133);
+}
+header {
+  margin: 0;
+  background-color: rgba(56, 47, 133, 0.9);
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h-logo {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.h-menu {
+    flex-grow: 1;
+  }
+.h-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.h-menu li {
+    margin-right: 20px;
+  }
+.h-menu li:last-child {
+    margin-right: 0;
+  }
+.h-menu a {
+    padding: 8px 10px;
+    font: 1.5em "Gill Sans", sans-serif;
+}
+.h-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+  }
+.h-menu a,
+.h-menu .active {
+    display: block;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+
+  }
+.h-menu a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+  }
+.h-menu a:hover {
+  color: rgb(255, 224, 116)
+}
+#h-socials-id{
+  float: right;
+  margin: 0;
+  height: 150px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h-socials{
+  flex-grow: 1;
+}
+.h-socials ul {
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.h-socials li {
+  margin-right: 20px;
+}
+.h-socials li:last-child {
+  margin-right: 0;
+}
+.h-socials a {
+  font: 1.5em "Gill Sans", sans-serif;
+}
+.h-socials ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 50px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+.h-socials a,
+.h-socials .active {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+
+}
+.h-socials a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+.h-socials a:hover {
+color: rgb(255, 224, 116)
+}
+#github {
+  height: 45px;
+}
+#programming {
+    padding-top: 150px;
+    width: 100%;
+    height: 1200px;
+    background-image: url(/Users/quicklast/Projects/HTML_Projects/Landing/images/a-m_prog_background.png);
+}
+.prog-text {
+    float: left;
+    width: 50%;
+}
+.prog-photo {
+    float: right;
+    width: 50%;
+}
+#prog-title {
+    padding-top: 50px;
+    padding-left: 70px;
+}
+#prog-text {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 500px;
+    height: 1000px;
+}
+#prog-photo {
+    padding-top: 150px;
+    float: right;
+    width: 500px;
+}
+#languages {
+    width: 100%;
+    height: 1500px;
+    background-image: url(/Users/quicklast/Projects/HTML_Projects/Landing/images/a-m_lang_background.png);
+}
+#lang-title {
+    float: right;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+#lang-text1 {
+    float: right;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 800px;
+    width: 700px;
+}
+#lang-text2 {
+    float: left;
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 700px;
+}
+#other-info {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(56, 47, 133);
+}
+.o-text1{
+    float: left;
+    width: 531px;
+}
+#o-title{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#o-text1{
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.o-text2{
+    float: right;
+    width: 531px;
+}
+#o-text2{
+    width: 500px;
+    float: right;
+    padding-top: 120px;
+    padding-right: 50px;
+}
+#o-photo{
+    width: 500px;
+    float: right;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+#footer {
+    padding-top: 50px;
+    margin: 0;
+    background-color: rgb(24, 3, 44);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: top;
+  }
+  .f-menu {
+      padding-left: 50px;
+      flex-grow: 1;
+      float: right;
+    }
+  .f-menu ul {
+      display: flex;
+      flex-flow: row nowrap;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  .f-menu li {
+      margin-right: 20px;
+    }
+  .f-menu li:last-child {
+      margin-right: 0;
+    }
+  .f-menu a {
+      padding: 8px 10px;
+      font: 1.2em "Gill Sans", sans-serif;
+  }
+  .f-menu ul {
+      display: flex;
+      flex-flow: row nowrap;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      line-height: 18px;
+      list-style: none;
+    }
+  .f-menu a,
+  .f-menu .active {
+      display: block;
+      padding: 8px 10px;
+      text-transform: uppercase;
+      letter-spacing: .27em;
+  
+    }
+  .f-menu a {
+      color: rgb(190, 190, 190);
+      text-decoration: none;
+    }
+  .f-menu a:hover {
+    color: rgb(255, 224, 116)
+  }
+  #f-socials-id{
+    float: right;
+    margin: 0;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: top;
+  }
+  .f-socials{
+    flex-grow: 1;
+  }
+  .f-socials ul {
+    float: right;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .f-socials li {
+    margin-right: 20px;
+  }
+  .f-socials li:last-child {
+    margin-right: 0;
+  }
+  .f-socials a {
+    font: 1.5em "Gill Sans", sans-serif;
+  }
+  .f-socials ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 50px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+  }
+  .f-socials a,
+  .f-socials .active {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+  
+  }
+  .f-socials a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+  }
+  .f-socials a:hover {
+  color: rgb(255, 224, 116)
+  }
+  #github {
+    height: 45px;
+  }
+  #egg {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 3, 44);
+  }
+  #f-logo {
+    display: block;
+    margin-left: auto;   
+    margin-right: auto;
+  }

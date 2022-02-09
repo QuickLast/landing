@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-color: rgba(56, 47, 133);
+}
+header {
+  margin: 0;
+  background-color: rgba(56, 47, 133, 0.9);
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h-logo {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.h-menu {
+    flex-grow: 1;
+  }
+.h-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.h-menu li {
+    margin-right: 20px;
+  }
+.h-menu li:last-child {
+    margin-right: 0;
+  }
+.h-menu a {
+    padding: 8px 10px;
+    font: 1.5em "Gill Sans", sans-serif;
+}
+.h-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+  }
+.h-menu a,
+.h-menu .active {
+    display: block;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+
+  }
+.h-menu a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+  }
+.h-menu a:hover {
+  color: rgb(255, 224, 116)
+}
+#h-socials-id{
+  float: right;
+  margin: 0;
+  height: 150px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h-socials{
+  flex-grow: 1;
+}
+.h-socials ul {
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.h-socials li {
+  margin-right: 20px;
+}
+.h-socials li:last-child {
+  margin-right: 0;
+}
+.h-socials a {
+  font: 1.5em "Gill Sans", sans-serif;
+}
+.h-socials ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 50px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+.h-socials a,
+.h-socials .active {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+
+}
+.h-socials a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+.h-socials a:hover {
+color: rgb(255, 224, 116)
+}
+#github {
+  height: 45px;
+}
+#about-me {
+  padding-top: 150px;
+  width: 100%;
+  height: 550px;
+  background-image: url('/Users/quicklast/Projects/HTML_Projects/Landing/images/am_background.png');
+  background-blend-mode: multiply;
+  background-color:rgba(44, 44, 44, 0.3);
+}
+.cloud_right {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  float: right;
+  padding-left:1000px;
+}
+.cloud_left {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  transform: scale(-1, 1);
+  float: left;
+  padding-top: 350px;
+} 
+.am-textblock {
+  text-align: center;
+  padding-top: 150px;
+}
+.am-textblock h1 {
+  font: 5em "Gill Sans", sans-serif;
+  color: rgb(244, 191, 0);
+}
+.am-textblock h3 {
+  padding-top: 20px;
+  font: 2em "Gill Sans", sans-serif;
+  color: rgb(255, 222, 100);
+}
+#programming {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255, 199, 0);
+}
+#prog-text {
+  padding-top: 20px;
+  padding-left: 100px;
+  width: auto;
+  height: 300px;
+  float: left;
+}
+#prog-title {
+  float: left;
+  padding-top: 80px;
+  padding-left: 100px;
+  width: auto;
+  height: 100px;
+}
+.p-text {
+  width: 50%;
+  float: left;
+}
+.p-photo {
+  width: 50%;
+  float: right;
+}
+#prog-man {
+  height: 600px;
+  width: auto;
+  float: right;
+}
+#languages {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(56, 47, 133);
+}
+#lang-text {
+  float: right;
+  width: 50%;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+#lang-photo {
+  float: left;
+  width: 30%;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+#contacts {
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/c_background.png);
+}
+#c-text {
+  float: left;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+#moreinfo {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(43, 6, 82);
+}
+.mi-text {
+  text-align: center;
+  padding: 20px;
+}
+.mi-text p {
+  font: 2em "Gill Sans", sans-serif;
+  color: rgb(255, 222, 100);
+}
+#footer {
+  padding-top: 50px;
+  margin: 0;
+  background-color: rgb(24, 3, 44);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: top;
+}
+.f-menu {
+    padding-left: 50px;
+    flex-grow: 1;
+    float: right;
+  }
+.f-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.f-menu li {
+    margin-right: 20px;
+  }
+.f-menu li:last-child {
+    margin-right: 0;
+  }
+.f-menu a {
+    padding: 8px 10px;
+    font: 1.2em "Gill Sans", sans-serif;
+}
+.f-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+  }
+.f-menu a,
+.f-menu .active {
+    display: block;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+
+  }
+.f-menu a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+  }
+.f-menu a:hover {
+  color: rgb(255, 224, 116)
+}
+#f-socials-id{
+  float: right;
+  margin: 0;
+  height: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: top;
+}
+.f-socials{
+  flex-grow: 1;
+}
+.f-socials ul {
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.f-socials li {
+  margin-right: 20px;
+}
+.f-socials li:last-child {
+  margin-right: 0;
+}
+.f-socials a {
+  font: 1.5em "Gill Sans", sans-serif;
+}
+.f-socials ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 50px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+.f-socials a,
+.f-socials .active {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+
+}
+.f-socials a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+.f-socials a:hover {
+color: rgb(255, 224, 116)
+}
+#github {
+  height: 45px;
+}
+#egg {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(24, 3, 44);
+}
+#f-logo {
+  display: block;
+  margin-left: auto;   
+  margin-right: auto;
+}
