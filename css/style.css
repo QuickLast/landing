@@ -148,20 +148,17 @@ background-blend-mode: multiply;
 background-color:rgba(44, 44, 44, 0.3);
 }
 .cloud_right {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 300px;
+  float: right;
+}
+#cloud_right {
 position: absolute;
 width: 400px;
 height: 300px;
 float: right;
-padding-left:1000px;
-}
-@media (max-width: 650px){
-  .cloud_right{
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    float: right;
-    padding-left:340px;
-  }
 }
 .cloud_left {
 position: absolute;
